@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<head>
+	<title>Matrícula</title>
+	<link rel = "icon" type = "imagens/png" href = "imagens/logo_1.png"><!--Icone Title-->
+	<link rel="stylesheet" href="css/matriculaa.css">
+</head>
+<body>
+	<center>
+		<h1 style='font-family:Cursive'>Matrícula</h1>
+		<form name="matricula" method="POST" action="matricula.php" enctype="multipart/form-data">
+		<div class="matricula">
+				<p style = "text-align : center";>Nome do curso:</p>
+					<select name = "curso" class = "curso" style="size:92.5%"  required>
+						<option value="Informática Básica">Informática Básica</option>
+						<option value="Programação Básica">Programação Básica</option>
+						<option value="Programação Web">Programação Web</option>
+						<option value="Programação para jogos com Java">Programação para jogos com Java</option>
+						<option value="Programação Desktop com Java">Programação Desktop com Java</option>
+						<option value="Programação com Java Web">Programação com Java Web</option>
+					</select>
+					<br><br><br><br><br>
+				<p style = "text-align : center";>Período:</p>
+					<select name = "horario" class = "horario" style="size:92.5%"  required>
+						<option value="Manhã">Manhã</option>
+						<option value="Tarde">Tarde</option>
+						<option value="Noturno">Noturno</option>
+					</select>
+				<p><input type="submit"	name="Enviar" class="botao"></p>
+		</form>
+		</center>
+		<br>
+		<div class="home">
+			<a href="menu.php">Voltar</a>
+		</div>
+</body>
+</html>

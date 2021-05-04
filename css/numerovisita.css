@@ -1,0 +1,44 @@
+body{
+	background-color: #0A2351;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+table{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	border-collapse: collapse;
+	width: 55%;
+}
+
+td, th, tr{
+	border: 1px solid #ffffff;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: #709CED;
+}
+
+/*******Botões de retorno à primera página (index.html)*******/
+.home{
+	position : absolute;
+	top : 500px;
+	left : 555px;
+	border: 1px solid #0A2351;
+	border-style: solid;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 13px;
+	color: #B6922E;
+	padding: 10px 15px;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 15%;
+}
+a{
+	color: #B6922E;
+	text-decoration: none;
+}

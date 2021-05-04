@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Visitas</title>
+		<meta charset = "UTF-8">
+		<link rel = "icon" type = "imagens/png" href = "imagens/logo_1.png"><!--Icone Title-->
+		<link rel="stylesheet" href="css/visita.css">
+	</head>
+	<body>
+	<center>
+		<h1 style='font-family:Cursive'>Visitas</h1>
+		<form name="visita" method="POST" action="visita.php" enctype="multipart/ form-data">
+			<div class="visita">
+				<p>Avaliação &#11088:</p>
+				<select name = "nota" style="size:92.5%" selected required>
+						<option value="1">1 &#11088</option>
+						<option value="2">2 &#11088 &#11088</option>
+						<option value="3">3 &#11088 &#11088 &#11088</option>
+						<option value="4">4 &#11088 &#11088 &#11088 &#11088</option>
+						<option value="5">5 &#11088 &#11088 &#11088 &#11088 &#11088</option>
+					</select>
+					<br><br>
+				<p>Comentário &#128172:</p><br>
+				<p class = "comentario"><textarea  name = "comentario" style="height:auto!important"  rows="8"'placeholder="Escreva sobre nosso site" required></textarea></p>
+				<p><input type=submit	value="Enviar Avaliação" class = "enviar"></p>
+			</div>
+		</form>
+		</center>
+		<br>
+		<div class="home">
+			<a href="menu.php">Voltar</a>
+		</div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body{
+	background-color: #0A2351;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	color: white;
+	text-align: center;
+}
+form{
+	position: center;
+	text-align: center;
+	width: 50%;
+}
+.botao{
+	border: 0px solid;
+	margin: 5px 10px;
+	position: absolute;
+	left : 550px ;
+	top : 315px;
+	text-align: center;
+	display: inline-block;
+	width: 18%;
+	padding : 10px 10px;
+}
+
+.botao:hover{
+	margin: 5px 10px;
+	position: center;
+	display: inline-block;
+	width: 18%;
+	color: white;
+	background-color: #0A2351;
+	padding : 10px 10px;
+}
+.home{
+	border: 1px solid #0A2351;
+	border-style: solid;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 13px;
+	color: #B6922E;
+	padding: 10px 15px;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 15%;
+}
+a{
+	color: #B6922E;
+	text-decoration: none;
+}
+/****Estilização para o formulário "matricula" (matricula.html)****/
+
+.matricula{
+	margin: 0px 148px;
+	position: inherit;
+	display: center;
+	text-align: left;
+	width: 350px;
+	height: 300px;
+	padding: 15px 15px 15px 15px;
+	font-size: 75%;
+	color: #000000;
+	background-color: #709CED;
+}
+p{
+	font-size : 17px;
+	margin : 3px;
+}
+.curso{
+	position : absolute;
+	top : 133px;
+	left : 525.5px;
+	border: 0px solid;
+	border-style: solid;
+	padding: 8px 15px;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	width: 23%;
+}
+.horario{
+	position : absolute;
+	top : 230px;
+	left : 525.5px;
+	border: 0px solid;
+	border-style: solid;
+	padding: 8px 15px;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	width: 23%;
+}
+form{
+	position: center;
+	text-align: center;
+	width: 50%;
+}

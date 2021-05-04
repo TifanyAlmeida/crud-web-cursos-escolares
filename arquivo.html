@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Enviar arquivo</title>
+		<meta charset = "UTF-8">
+		<link rel="stylesheet" href="css/arquivos.css">
+		<link rel = "icon" type = "imagens/png" href = "imagens/logo_1.png"><!--Icone Title-->
+		<h1 style='font-family:Cursive'>Enviar arquivo</h1>
+	</head>
+	<body>
+		<form method="POST" action="experiencias.php" enctype="multipart/form-data">
+			<div class="arquivo">
+				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+				<p align=left>Arquivo &#128194:<input type="file" name="arquivo" size="30"></p>
+				<br><input type=submit value="Enviar arquivo" class="botao">
+			</div>
+		</form>
+		<div class="home">
+			<a href="contato.html">Voltar</a>
+		</div>
+	</body>					
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Cadastro</title>
+		<meta charset = "UTF-8">
+		<link rel = "icon" type = "imagens/png" href = "imagens/logo_1.png"><!--Icone Title-->
+		<link rel="stylesheet" href="css/Cadastro.css">
+	</head>
+	<body>
+	<center>
+		<h1>Cadastro</h1>
+		<form name="cadastrar" method="POST" action="cadastrar.php" enctype="multipart/ form-data">
+			<div class="cadastrar">
+				<p>Foto &#128247:</p>
+				<input type="file" name="foto" size="30">
+				
+				<p>Nome de usuário &#128100:</p>
+				<input id="nome" type="text" name="nome" class ="inputcadastro" placeholder="Nome de usuário" required>
+				
+				<p>Email &#128231:</p>
+				<input id="email" type="email" name="email" class ="inputcadastro" placeholder="Email" required>
+				
+				<p>Senha &#128272:</p>
+				<input id="senha" type="password" name="senha" class ="inputcadastro" placeholder="A senha deve conter até 10 caracteres" required>
+				
+				<p><input type=submit	value="Cadastrar" class = "botao" ></p>
+			</div>
+		</form>
+		</center>
+		<br>
+		<div class="home">
+			<a href="index.phtml" class="botao:hover">Voltar</a>
+		</div>
+</body>
+</html>

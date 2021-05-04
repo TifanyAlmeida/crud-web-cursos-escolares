@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contato</title>
+		<meta charset = "UTF-8">
+		<link rel = "icon" type = "imagens/png" href = "imagens/logo_1.png"><!--Icone Title-->
+		<link rel="stylesheet" href="css/Contato.css">
+	</head>
+	<body>
+		<center>
+		<h1>Contato</h1>
+		<p style="font-size: 75%">(Todos os campos baixo são obrigatórios)</p>
+		<form name="contato" method="POST" action="gravardados.php" enctype="multipart/form-data">
+			<div class="contato">
+				<p>Nome Completo &#128100:</p>
+				<input id="nomecompleto" type="text" name="nomecompleto" required><br><br>
+				<p>Data de Nascimento &#128197:</p>
+				<input id="datanasc" type="date" name="datanasc" required><br><br><br>
+				<p>E-mail &#128231:</p>
+				<input id="email" type="email" name="email" required><br><br>
+				<p>Telefone &#128222:</p>
+				<input id="telefone" type="tel" name="telefone" required><br><br>
+				<p>Cidade &#127751:</p>
+					<select name="select" style="size:92.5%" selected required>
+						<option value="Americana">Americana</option>
+						<option value="Campinas">Campinas</option>
+						<option value="Hortolandia">Hortolândia</option>
+						<option value="Monte Mor">Monte Mor</option>
+						<option value="Nova Odessa">Nova Odessa</option>
+						<option value="Sumare">Sumáre</option>
+					</select>
+				<p><input type=submit value="Enviar" class="botao"></p><br>
+				<p class = "enviararquivo"><b>Envie um PDF descrevendo se já teve alguma experiência na área de<br> informática para facilitar a escolha do nível do curso.</b></p>
+				<a href ="arquivo.html" style="color:blue" class = "linkenviararquivo"><p class = "linkenviararquivo"></p>Enviar arquivo</a>
+			</div>
+		</form>
+		<br>
+		<div class="home">
+			<a href="index.phtml">Voltar</a>
+		</div>
+	</center>
+	</body>
+</html>

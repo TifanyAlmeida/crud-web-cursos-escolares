@@ -1,0 +1,139 @@
+body{
+	background-color: #0A2351;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	color: white;
+}
+img{
+	position: absolute;
+    top: 17%; 
+    left: 18%;
+	border-radius: 50%;
+}
+h1{
+	position: absolute;
+	top: 2%; 
+    left: 39%;
+}
+h3{
+	position: absolute;
+	top: 24.5%; 
+    left: 59.5%;
+	font-size : 25px;
+}
+.buttondesativa{
+	position: absolute;
+    top: 80%; 
+    left: 20.5%;
+	margin: 7px 7px;
+	border: 1px solid #0A2351;
+	border-style: solid;
+	display: inline-block;
+	cursor: pointer;
+	width: 15%;
+	padding : 10px 10px;
+	color: #B6922E;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.buttonseucadastro{
+	position: absolute;
+    top: 70%; 
+    left: 20.5%;
+	margin: 7px 7px;
+	border: 1px solid #0A2351;
+	border-style: solid;
+	display: inline-block;
+	cursor: pointer;
+	width: 15%;
+	padding : 10px 10px;
+	color: #B6922E;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*menu*/
+.buttonaltera{
+	position: absolute;
+    top: 42%; 
+    left: 50%;
+	margin: 7px 7px;
+	border: 1px solid #0A2351;
+	border-style: solid;
+	display: inline-block;
+	cursor: pointer;
+	width: 32%;
+	padding : 10px 10px;
+	background-color: #709CED;
+}
+
+.buttonaltera:hover{
+	background-color: #B6922E;
+}
+.buttonvisita{
+	position: absolute;
+    top: 52%; 
+    left: 50%;
+	margin: 7px 7px;
+	border: 1px solid #0A2351;
+	border-style: solid;
+	display: inline-block;
+	cursor: pointer;
+	width: 32%;
+	padding : 10px 10px;
+	background-color: #709CED;
+}
+
+.buttonvisita:hover{
+	background-color: #B6922E;
+}
+.buttonrealiza{
+	position: absolute;
+    top: 62%; 
+    left: 50%;
+	margin: 7px 7px;
+	border: 1px solid #0A2351;
+	border-style: solid;
+	display: inline-block;
+	cursor: pointer;
+	width: 32%;
+	padding : 10px 10px;
+	background-color: #709CED;
+}
+
+.buttonrealiza:hover{
+	background-color: #B6922E;
+}
+.buttonrelacao{
+	position: absolute;
+    top: 72%; 
+    left: 50%;
+	margin: 7px 7px;
+	border: 1px solid #0A2351;
+	border-style: solid;
+	display: inline-block;
+	cursor: pointer;
+	width: 32%;
+	padding : 10px 10px;
+	background-color: #709CED;
+}
+
+.buttonrelacao:hover{
+	background-color: #B6922E;
+}
+.buttondelete{
+	position: absolute;
+    top: 82%; 
+    left: 50%;
+	margin: 7px 7px;
+	border: 1px solid #0A2351;
+	border-style: solid;
+	display: inline-block;
+	cursor: pointer;
+	width: 32%;
+	padding : 10px 10px;
+	background-color: #709CED;
+}
+
+.buttondelete:hover{
+	background-color: #B6922E;
+}
+
