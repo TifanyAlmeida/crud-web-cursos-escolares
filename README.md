@@ -1,4 +1,4 @@
 # crud-web-cursos-escolares
 
 ### CRUD EM PHP
-##### Web site com CRUD ce cursos escolares.
+##### Web site com CRUD de cursos escolares.
